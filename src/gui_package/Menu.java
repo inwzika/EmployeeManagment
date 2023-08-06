@@ -46,12 +46,12 @@ public class Menu extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Welcome to the Employee System");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/men.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/resources/men.png"))); // NOI18N
 
-        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/folder.png"))); // NOI18N
+        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/resources/folder.png"))); // NOI18N
         jMenu1.setText("File");
 
-        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/exit.png"))); // NOI18N
+        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/resources/exit.png"))); // NOI18N
         jMenuItem1.setText("Exit");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -62,10 +62,10 @@ public class Menu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu1);
 
-        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/add.png"))); // NOI18N
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/resources/add.png"))); // NOI18N
         jMenu2.setText("Add");
 
-        jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/addemployee.png"))); // NOI18N
+        jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/resources/addemployee.png"))); // NOI18N
         jMenuItem3.setText("Add New Employee");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,7 +74,7 @@ public class Menu extends javax.swing.JFrame {
         });
         jMenu2.add(jMenuItem3);
 
-        jMenuItem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/job.png"))); // NOI18N
+        jMenuItem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/resources/job.png"))); // NOI18N
         jMenuItem4.setText("Add New Job");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,10 +85,10 @@ public class Menu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu2);
 
-        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/edit.png"))); // NOI18N
+        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/resources/edit.png"))); // NOI18N
         jMenu4.setText("Edit");
 
-        jMenuItem5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/edit.png"))); // NOI18N
+        jMenuItem5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gui_package/resources/edit.png"))); // NOI18N
         jMenuItem5.setText("Edit Employee");
         jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
